@@ -1,0 +1,5 @@
+/mindsdb
+/mindsdb-venv
+
+/mdb_data
+./mdb_config.*

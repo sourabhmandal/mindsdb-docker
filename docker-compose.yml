@@ -1,0 +1,9 @@
+version: "3.9"  # Use a recent Compose file version
+services:
+  mindsdb:
+    build: .
+    ports:
+      - "47334:47334"
+      - "47335:47335"
+    volumes:
+      - ./mdb_data:/root/mdb_storage  # Map local mdb_data directory to container
