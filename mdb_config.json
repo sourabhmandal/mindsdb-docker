@@ -20,13 +20,6 @@
       "host": "0.0.0.0",
       "port": "47336",
       "database": "mindsdb"
-    },
-    "planet_scale": {
-      "host": "<planetscale_host>",
-      "port": 3306,
-      "user": "<planetscale_user>",
-      "password": "<planetscale_password>",
-      "database": "hackathon"
     }
   }
 }
